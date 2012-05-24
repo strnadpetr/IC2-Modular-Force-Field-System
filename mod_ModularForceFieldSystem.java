@@ -228,8 +228,9 @@ public class mod_ModularForceFieldSystem extends BaseMod {
 
 	}
 	
-    public void ModsLoaded()
+    public void modsLoaded()
     {
+    	super.modsLoaded();
     	ExplosionWhitelist.addWhitelistedBlock(MFFSFieldblock);
     	ExplosionWhitelist.addWhitelistedBlock(MFFSUpgrades);
     	ExplosionWhitelist.addWhitelistedBlock(MFFSMaschines);
